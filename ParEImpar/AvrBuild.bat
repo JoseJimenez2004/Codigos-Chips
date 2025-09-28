@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\LENOVO\Documents\ParEImpar\labels.tmp" -fI -W+ie -o "C:\Users\LENOVO\Documents\ParEImpar\ParEImpar.hex" -d "C:\Users\LENOVO\Documents\ParEImpar\ParEImpar.obj" -e "C:\Users\LENOVO\Documents\ParEImpar\ParEImpar.eep" -m "C:\Users\LENOVO\Documents\ParEImpar\ParEImpar.map" "C:\Users\LENOVO\Documents\ParEImpar\ParEImpar.asm"

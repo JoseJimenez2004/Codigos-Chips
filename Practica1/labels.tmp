@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.12</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\LENOVO\Documents\Practica1</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\LENOVO\Documents\Practica1\Practica1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\LENOVO\Documents\Practica1\Practica1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\LENOVO\Documents\Practica1\Practica1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\LENOVO\Documents\Practica1\Practica1.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <ciclo><FILE>C:\Users\LENOVO\Documents\Practica1\Practica1.asm</FILE><LINE>9</LINE></ciclo>
+  <igual><FILE>C:\Users\LENOVO\Documents\Practica1\Practica1.asm</FILE><LINE>19</LINE></igual>
+  <menor><FILE>C:\Users\LENOVO\Documents\Practica1\Practica1.asm</FILE><LINE>23</LINE></menor>
+  <mayor><FILE>C:\Users\LENOVO\Documents\Practica1\Practica1.asm</FILE><LINE>15</LINE></mayor>
+ </LABELS>
+</ASSEMBLER_INFO>
