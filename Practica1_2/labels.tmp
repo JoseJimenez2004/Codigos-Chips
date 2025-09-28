@@ -1,0 +1,26 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.12</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <ciclo><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>21</LINE></ciclo>
+  <digito><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>49</LINE></digito>
+  <letra><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>36</LINE></letra>
+ </LABELS>
+</ASSEMBLER_INFO>
