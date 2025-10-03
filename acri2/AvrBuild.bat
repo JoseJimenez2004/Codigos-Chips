@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\labels.tmp" -fI -W+ie -o "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.hex" -d "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.obj" -e "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.eep" -m "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.map" "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm"

@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.12  C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm Tue Sep 30 13:56:45 2025
+AVRASM ver. 2.1.12  C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm Mon Sep 29 14:36:48 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -593,6 +593,7 @@ EQU  SPMRaddr     00000014
 EQU  INT_VECTORS_SIZE 00000015
 DEF  asc          r17
 DEF  hex          r16
-CSEG main         00000004
-CSEG letra        0000000b
-CSEG salida       00000009
+CSEG etql         00000004
+CSEG letra        0000000d
+CSEG guar         00000009
+CSEG fin          0000000c

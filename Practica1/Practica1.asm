@@ -13,14 +13,14 @@ ciclo:
   breq igual
   brlo menor
 mayor:
-  out portb,r16
+  out porta,r16
   out portc,r17
   rjmp ciclo
 igual:
-  out portb,r16
+  out porta,r16
   out portc,r17
   rjmp ciclo
 menor:
-  out portb,r17
-  out portc,r16
+  out portc,r17
+  out porta,r16
   rjmp ciclo

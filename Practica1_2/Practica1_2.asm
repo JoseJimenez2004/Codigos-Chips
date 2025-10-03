@@ -1,58 +1,39 @@
+; --- Definiciones ---
 .include "m8535def.inc"
 
-; -----------------------------------
-; Definiciones y Constantes
-; -----------------------------------
-.def val_in_out = r16   ; r16 se usa para la entrada, el cálculo y la salida
-.def temp_val = r17     ; Registro temporal para guardar el offset
-.equ ASCII_ZERO     = $30  ; Offset para ASCII de '0' a '9'
-.equ ASCII_A_OFFSET = $37  ; Offset para ASCII de 'A' a 'F' ($41 - $0A)
+.def asc = r17  ; Registro temporal para el valor de ajuste (7, si es A-F)
+.def hex = r16  ; Registro para el valor hexadecimal ASCII resultante
 
-; -----------------------------------
-; Inicialización de Puertos
-; -----------------------------------
-	ser r17               ; r17 = $FF
-	out ddra,r17          ; PORTA como salida
-	out ddrb,r17          ; PORTB como salida
+; --- Configuración de Puertos ---
+; Configurar Puerto B como entrada
+ldi r18, $00    ; Cargar 0x00 para configurar Puerto B como entrada
+out DDRB, r18   ; DDRB = 0x00 (todos los pines como entrada)
 
-; -----------------------------------
-; Bucle Principal
-; -----------------------------------
-ciclo:
-	; 1. Leer la entrada (Solo PINB)
-	in val_in_out,pinb
-	
-	; 2. Aísla el nibble bajo (0x0 a 0xF)
-	andi val_in_out, $0F 
+; Configurar Puerto A como salida  
+ldi r18, $FF    ; Cargar 0xFF para configurar Puerto A como salida
+out DDRA, r18   ; DDRA = 0xFF (todos los pines como salida)
 
-	; 3. Comprobación de Rango (0x0 a 0x9)
-	; Compara el valor en r16 con 10 (0x0A)
-	cpi val_in_out, $0A
-	brlo digito ; Si es menor que $0A (0-9), salta a 'digito'
+; --- Bucle Principal ---
+main:
+    ldi hex, $30  ; Carga el valor base ASCII '0' ($30) en 'hex'
+    
+    ; LEER DESDE PUERTO B
+    in asc, PINB  ; Lee el valor del Puerto B y lo guarda en 'asc'
+    
+    ; Conversión: Suma el valor numérico al ASCII '0'.
+    add hex, asc  
+    
+    cpi hex, $3A  ; Compara el resultado con el ASCII ':' ($3A)
+    brsh letra    ; Si es mayor o igual, salta a ajustar para las letras (A-F)
 
-	; -----------------------------------
-	; Caso: Letra ($A a $F) -> Salida en PORTB
-	; -----------------------------------
+; --- Salida al Puerto A ---
+salida:
+    ; ENVIAR AL PUERTO A
+    out PORTA, hex ; Envía el valor ASCII convertido al Puerto A
+    rjmp main     ; Vuelve al inicio para procesar continuamente
+
+; --- Ajuste para Letras (A-F) ---
 letra:
-	; r16 ya contiene el valor (0xA-0xF)
-	ldi temp_val, ASCII_A_OFFSET ; Carga $37
-	add val_in_out, temp_val     ; Suma $37: Convierte a ASCII A-F (ej: $0A + $37 = $41 'A')
-	out porta, val_in_out        ; Envía el resultado al PORTA
-	
-	; pa borrar los valores o no se modifique
-	;clr r16
-	out porta, r16 
-	rjmp ciclo
-
-	; Caso: Dígito ($0 a $9) -> Salida en PORTA
-
-digito:
-	; r16 ya contiene el valor (0x0-0x9)
-	ldi temp_val, ASCII_ZERO ; Carga $30
-	add val_in_out, temp_val ; Suma $30: Convierte a ASCII 0-9 
-	out porta, val_in_out    ; Envía el resultado al PORTA
-	
-	; Asegura que PORTA esté limpio o no se modifique, pero para que se deba poner cada iteracion, se lo kite xd
-	;clr r16
-	out porta, r16 
-	rjmp ciclo
+    ldi asc, 7    ; Carga el valor de ajuste 7
+    add hex, asc  ; Ajusta para obtener 'A'-'F'
+    rjmp salida   ; Salta a la salida
