@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Decodificador\labels.tmp" -fI -W+ie -o "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Decodificador\Decodificador.hex" -d "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Decodificador\Decodificador.obj" -e "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Decodificador\Decodificador.eep" -m "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Decodificador\Decodificador.map" "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Decodificador\Decodificador.asm"
