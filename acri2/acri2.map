@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.12  C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm Mon Sep 29 14:36:48 2025
+AVRASM ver. 2.1.12  C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm Sun Oct 12 01:50:52 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -591,9 +591,39 @@ EQU  INT2addr     00000012
 EQU  OC0addr      00000013
 EQU  SPMRaddr     00000014
 EQU  INT_VECTORS_SIZE 00000015
-DEF  asc          r17
-DEF  hex          r16
-CSEG etql         00000004
-CSEG letra        0000000d
-CSEG guar         00000009
-CSEG fin          0000000c
+DEF  aux          r16
+DEF  valor        r17
+EQU  SEG_0        0000003f
+EQU  SEG_1        00000006
+EQU  SEG_2        0000005b
+EQU  SEG_3        0000004f
+EQU  SEG_4        00000066
+EQU  SEG_5        0000006d
+EQU  SEG_6        0000007d
+EQU  SEG_7        00000007
+EQU  SEG_8        0000007f
+EQU  SEG_9        0000006f
+EQU  SEG_A        00000077
+EQU  SEG_B        0000007c
+EQU  SEG_C        00000039
+EQU  SEG_D        0000005e
+EQU  SEG_E        00000079
+EQU  SEG_F        00000071
+CSEG main         00000005
+CSEG mostrar0     00000029
+CSEG mostrar1     0000002b
+CSEG mostrar2     0000002d
+CSEG mostrar3     0000002f
+CSEG mostrar4     00000031
+CSEG mostrar5     00000033
+CSEG mostrar6     00000035
+CSEG mostrar7     00000037
+CSEG mostrar8     00000039
+CSEG mostrar9     0000003b
+CSEG mostrarA     0000003d
+CSEG mostrarB     0000003f
+CSEG mostrarC     00000041
+CSEG mostrarD     00000043
+CSEG mostrarE     00000045
+CSEG mostrarF     00000047
+CSEG mostrar      00000048

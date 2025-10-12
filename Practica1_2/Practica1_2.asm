@@ -6,9 +6,8 @@
 
 ; --- Configuración de Puertos ---
 ; Configurar Puerto B como entrada
-ldi r18, $00    ; Cargar 0x00 para configurar Puerto B como entrada
-out DDRB, r18   ; DDRB = 0x00 (todos los pines como entrada)
-
+ldi r18, $FF
+out PORTB, r18
 ; Configurar Puerto A como salida  
 ldi r18, $FF    ; Cargar 0xFF para configurar Puerto A como salida
 out DDRA, r18   ; DDRA = 0xFF (todos los pines como salida)

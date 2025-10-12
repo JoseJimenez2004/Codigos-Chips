@@ -19,9 +19,23 @@
   <FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <etql><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>11</LINE></etql>
-  <letra><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>25</LINE></letra>
-  <guar><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>18</LINE></guar>
-  <fin><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>22</LINE></fin>
+  <main><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>37</LINE></main>
+  <mostrar0><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>79</LINE></mostrar0>
+  <mostrar1><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>82</LINE></mostrar1>
+  <mostrar2><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>85</LINE></mostrar2>
+  <mostrar3><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>88</LINE></mostrar3>
+  <mostrar4><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>91</LINE></mostrar4>
+  <mostrar5><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>94</LINE></mostrar5>
+  <mostrar6><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>97</LINE></mostrar6>
+  <mostrar7><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>100</LINE></mostrar7>
+  <mostrar8><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>103</LINE></mostrar8>
+  <mostrar9><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>106</LINE></mostrar9>
+  <mostrarA><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>109</LINE></mostrarA>
+  <mostrarB><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>112</LINE></mostrarB>
+  <mostrarC><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>115</LINE></mostrarC>
+  <mostrarD><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>118</LINE></mostrarD>
+  <mostrarE><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>121</LINE></mostrarE>
+  <mostrarF><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>124</LINE></mostrarF>
+  <mostrar><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\acri2\acri2.asm</FILE><LINE>127</LINE></mostrar>
  </LABELS>
 </ASSEMBLER_INFO>

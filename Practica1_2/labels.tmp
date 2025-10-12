@@ -19,8 +19,8 @@
   <FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <main><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>17</LINE></main>
-  <letra><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>36</LINE></letra>
-  <salida><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>30</LINE></salida>
+  <main><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>16</LINE></main>
+  <letra><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>35</LINE></letra>
+  <salida><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Practica1_2\Practica1_2.asm</FILE><LINE>29</LINE></salida>
  </LABELS>
 </ASSEMBLER_INFO>
