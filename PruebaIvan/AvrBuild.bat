@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\PruebaIvan\labels.tmp" -fI -W+ie -o "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\PruebaIvan\PruebaIvan.hex" -d "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\PruebaIvan\PruebaIvan.obj" -e "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\PruebaIvan\PruebaIvan.eep" -m "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\PruebaIvan\PruebaIvan.map" "C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\PruebaIvan\PruebaIvan.asm"
