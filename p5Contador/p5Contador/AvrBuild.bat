@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\LENOVO\Downloads\p5Contador\p5Contador\labels.tmp" -fI -W+ie -o "C:\Users\LENOVO\Downloads\p5Contador\p5Contador\p5Contador.hex" -d "C:\Users\LENOVO\Downloads\p5Contador\p5Contador\p5Contador.obj" -e "C:\Users\LENOVO\Downloads\p5Contador\p5Contador\p5Contador.eep" -m "C:\Users\LENOVO\Downloads\p5Contador\p5Contador\p5Contador.map" "C:\Users\LENOVO\Downloads\p5Contador\p5Contador\p5Contador.asm"
