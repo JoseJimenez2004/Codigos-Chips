@@ -1,0 +1,42 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.12</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <SEG7_TABLE><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>18</LINE></SEG7_TABLE>
+  <main_loop><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>46</LINE></main_loop>
+  <display_7seg><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>128</LINE></display_7seg>
+  <check_inputs><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>60</LINE></check_inputs>
+  <auto_count><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>109</LINE></auto_count>
+  <check_int0><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>65</LINE></check_int0>
+  <check_int1><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>82</LINE></check_int1>
+  <delay_debounce><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>200</LINE></delay_debounce>
+  <increment_bcd><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>158</LINE></increment_bcd>
+  <wait_int0_up><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>75</LINE></wait_int0_up>
+  <wait_int1_up><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>101</LINE></wait_int1_up>
+  <delay_count><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>218</LINE></delay_count>
+  <auto_done><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>121</LINE></auto_done>
+  <rebuild_bcd><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>187</LINE></rebuild_bcd>
+  <deb_outer><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>205</LINE></deb_outer>
+  <deb_inner><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>207</LINE></deb_inner>
+  <count_delay_loop><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>224</LINE></count_delay_loop>
+  <cnt_outer><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>226</LINE></cnt_outer>
+  <cnt_inner><FILE>C:\Users\LENOVO\Documents\GitHub\Codigos-Chips\Display2Interrupciones\Display2Interrupciones.asm</FILE><LINE>228</LINE></cnt_inner>
+ </LABELS>
+</ASSEMBLER_INFO>
